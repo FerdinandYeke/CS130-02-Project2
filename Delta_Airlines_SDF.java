@@ -43,11 +43,9 @@ public class Delta_Airlines_SDF extends SDF_Route {
 						{
 							s1.Date();
 							s1.FlightNum1();
-							System.out.println("The ticket price: "+fmt1.format(ticket_price));
-							System.out.println("Your Date of Booking: "+s1.getDate());
+							s1.FlightNum1();System.out.println("The ticket price: "+fmt1.format(ticket_price));
 							System.out.println("Days for stay: "+days);
 							System.out.println("Airport Destination: ATL");
-							
 						}
 						else if(Ans == 'N') {
 							System.out.print("Your ticket refund: "+fmt1.format(ticket_price));
@@ -67,11 +65,9 @@ public class Delta_Airlines_SDF extends SDF_Route {
 						s1.Date();
 						s1.FlightNum1();
 						
-						System.out.println("The ticket price: "+fmt1.format(ticket_price));
-						System.out.println("Your Date of Booking: "+s1.getDate());
+						s1.FlightNum1();System.out.println("The ticket price: "+fmt1.format(ticket_price));
 						System.out.println("Days for stay: "+days);
 						System.out.println("Airport Destination: ATL");
-						
 					}
 					else if(Ans == 'N') {
 						System.out.print("Your ticket refund: "+fmt1.format(ticket_price));
@@ -91,11 +87,9 @@ public class Delta_Airlines_SDF extends SDF_Route {
 					{
 						s1.Date();
 						s1.FlightNum1();
-						System.out.println("The ticket price: "+fmt1.format(ticket_price));
-						System.out.println("Your Date of Booking: "+s1.getDate());
+						s1.FlightNum1();System.out.println("The ticket price: "+fmt1.format(ticket_price));
 						System.out.println("Days for stay: "+days);
 						System.out.println("Airport Destination: ATL");
-						
 					}
 					else if(Ans == 'N') {
 						System.out.print("Your ticket refund: "+fmt1.format(ticket_price));
@@ -115,11 +109,9 @@ public class Delta_Airlines_SDF extends SDF_Route {
 					{
 						s1.Date();
 						s1.FlightNum1();
-						System.out.println("The ticket price: "+fmt1.format(ticket_price));
-						System.out.println("Your Date of Booking: "+s1.getDate());
+						s1.FlightNum1();System.out.println("The ticket price: "+fmt1.format(ticket_price));
 						System.out.println("Days for stay: "+days);
 						System.out.println("Airport Destination: ATL");
-						
 					}
 					else if(Ans == 'N') {
 						System.out.print("Your ticket refund: "+fmt1.format(ticket_price));
@@ -138,8 +130,7 @@ public class Delta_Airlines_SDF extends SDF_Route {
 					{
 						s1.Date();
 						s1.FlightNum1();
-						System.out.println("The ticket price: "+fmt1.format(ticket_price));
-						System.out.println("Your Date of Booking: "+s1.getDate());
+						s1.FlightNum1();System.out.println("The ticket price: "+fmt1.format(ticket_price));
 						System.out.println("Days for stay: "+days);
 						System.out.println("Airport Destination: ATL");
 						
@@ -179,7 +170,6 @@ public class Delta_Airlines_SDF extends SDF_Route {
 					{
 						s1.Date();
 						s1.FlightNum1();System.out.println("The ticket price: "+fmt1.format(ticket_price));
-						System.out.println("Your Date of Booking: "+s1.getDate());
 						System.out.println("Days for stay: "+days);
 						System.out.println("Airport Destination: LGA");
 						
@@ -203,7 +193,6 @@ public class Delta_Airlines_SDF extends SDF_Route {
 						s1.FlightNum1();
 						s1.Date();
 						s1.FlightNum1();System.out.println("The ticket price: "+fmt1.format(ticket_price));
-						System.out.println("Your Date of Booking: "+s1.getDate());
 						System.out.println("Days for stay: "+days);
 						System.out.println("Airport Destination: LGA");
 						
@@ -227,7 +216,6 @@ public class Delta_Airlines_SDF extends SDF_Route {
 						s1.FlightNum1();
 						s1.Date();
 						s1.FlightNum1();System.out.println("The ticket price: "+fmt1.format(ticket_price));
-						System.out.println("Your Date of Booking: "+s1.getDate());
 						System.out.println("Days for stay: "+days);
 						System.out.println("Airport Destination: LGA");
 					}
@@ -250,10 +238,8 @@ public class Delta_Airlines_SDF extends SDF_Route {
 						s1.FlightNum1();
 						s1.Date();
 						s1.FlightNum1();System.out.println("The ticket price: "+fmt1.format(ticket_price));
-						System.out.println("Your Date of Booking: "+s1.getDate());
 						System.out.println("Days for stay: "+days);
-						System.out.println("Airport Destination: LGA");
-						
+						System.out.println("Airport Destination: LGA");						
 					}
 					else if(Ans == 'N') {
 						System.out.print("Your ticket refund: "+fmt1.format(ticket_price));
@@ -274,7 +260,6 @@ public class Delta_Airlines_SDF extends SDF_Route {
 						s1.FlightNum1();
 						s1.Date();
 						s1.FlightNum1();System.out.println("The ticket price: "+fmt1.format(ticket_price));
-						System.out.println("Your Date of Booking: "+s1.getDate());
 						System.out.println("Days for stay: "+days);
 						System.out.println("Airport Destination: LGA");
 						
@@ -314,7 +299,6 @@ public class Delta_Airlines_SDF extends SDF_Route {
 						s1.FlightNum1();
 						s1.Date();
 						s1.FlightNum1();System.out.println("The ticket price: "+fmt1.format(ticket_price));
-						System.out.println("Your Date of Booking: "+s1.getDate());
 						System.out.println("Days for stay: "+days);
 						System.out.println("Airport Destination: DTW");
 						
@@ -337,7 +321,6 @@ public class Delta_Airlines_SDF extends SDF_Route {
 						s1.Date();
 						s1.FlightNum1();
 						s1.FlightNum1();System.out.println("The ticket price: "+fmt1.format(ticket_price));
-						System.out.println("Your Date of Booking: "+s1.getDate());
 						System.out.println("Days for stay: "+days);
 						System.out.println("Airport Destination: DTW");
 						
@@ -361,7 +344,6 @@ public class Delta_Airlines_SDF extends SDF_Route {
 						s1.Date();
 						s1.FlightNum1();
 						s1.FlightNum1();System.out.println("The ticket price: "+fmt1.format(ticket_price));
-						System.out.println("Your Date of Booking: "+s1.getDate());
 						System.out.println("Days for stay: "+days);
 						System.out.println("Airport Destination: DTW");
 						
@@ -384,7 +366,6 @@ public class Delta_Airlines_SDF extends SDF_Route {
 						s1.Date();
 						s1.FlightNum1();
 						s1.FlightNum1();System.out.println("The ticket price: "+fmt1.format(ticket_price));
-						System.out.println("Your Date of Booking: "+s1.getDate());
 						System.out.println("Days for stay: "+days);
 						System.out.println("Airport Destination: DTW");
 					}
@@ -406,7 +387,6 @@ public class Delta_Airlines_SDF extends SDF_Route {
 						s1.Date();
 						s1.FlightNum1();
 						s1.FlightNum1();System.out.println("The ticket price: "+fmt1.format(ticket_price));
-						System.out.println("Your Date of Booking: "+s1.getDate());
 						System.out.println("Days for stay: "+days);
 						System.out.println("Airport Destination: DTW");
 						
@@ -445,7 +425,6 @@ public class Delta_Airlines_SDF extends SDF_Route {
 						s1.Date();
 						s1.FlightNum1();
 						s1.FlightNum1();System.out.println("The ticket price: "+fmt1.format(ticket_price));
-						System.out.println("Your Date of Booking: "+s1.getDate());
 						System.out.println("Days for stay: "+days);
 						System.out.println("Airport Destination: MSP");
 						
@@ -468,7 +447,6 @@ public class Delta_Airlines_SDF extends SDF_Route {
 						s1.Date();
 						s1.FlightNum1();
 						s1.FlightNum1();System.out.println("The ticket price: "+fmt1.format(ticket_price));
-						System.out.println("Your Date of Booking: "+s1.getDate());
 						System.out.println("Days for stay: "+days);
 						System.out.println("Airport Destination: MSP");
 						
@@ -492,7 +470,6 @@ public class Delta_Airlines_SDF extends SDF_Route {
 						s1.Date();
 						s1.FlightNum1();
 						s1.FlightNum1();System.out.println("The ticket price: "+fmt1.format(ticket_price));
-						System.out.println("Your Date of Booking: "+s1.getDate());
 						System.out.println("Days for stay: "+days);
 						System.out.println("Airport Destination: MSP");
 						
@@ -515,7 +492,6 @@ public class Delta_Airlines_SDF extends SDF_Route {
 						s1.Date();
 						s1.FlightNum1();
 						s1.FlightNum1();System.out.println("The ticket price: "+fmt1.format(ticket_price));
-						System.out.println("Your Date of Booking: "+s1.getDate());
 						System.out.println("Days for stay: "+days);
 						System.out.println("Airport Destination: MSP");
 						
@@ -538,7 +514,6 @@ public class Delta_Airlines_SDF extends SDF_Route {
 						s1.Date();
 						s1.FlightNum1();
 						s1.FlightNum1();System.out.println("The ticket price: "+fmt1.format(ticket_price));
-						System.out.println("Your Date of Booking: "+s1.getDate());
 						System.out.println("Days for stay: "+days);
 						System.out.println("Airport Destination: MSP");
 						

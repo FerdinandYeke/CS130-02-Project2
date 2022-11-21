@@ -67,7 +67,7 @@ public class SDF_Route {
 		{
 			this.Date = Date;
 			String Date = mnth +"/"+day+"/"+year;
-			System.out.println(Date);
+			System.out.println("Your date of booking: "+Date);
 			
 		}
 		else
@@ -101,9 +101,4 @@ public class SDF_Route {
 		System.out.println("Your Flight Ticket: "+this.FlightTicket);
 	}
 	
-	public String getDate()
-	{
-		this.Date = Date;
-		return Date;
-	}
 }
